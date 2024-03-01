@@ -1,0 +1,1361 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  l_BSEG_BYTES                    
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000002  l_BSEG                          
+C:   00000002  l_OSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   0000000F  l_GSINIT                        
+C:   00000010  l_CONST                         
+C:   00000010  s_REG_BANK_2                    
+C:   00000015  s_OSEG                          
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000021  s_SSEG                          
+C:   00000022  l_GSINIT3                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000002A  l_GSINIT4                       
+C:   00000051  l_HOME                          
+C:   00000051  s_GSINIT0                       
+C:   00000054  s_GSINIT1                       
+C:   00000054  s_GSINIT2                       
+C:   0000005E  s_GSINIT3                       
+C:   0000005F  l_SSEG                          
+C:   00000077  l_DSEG                          
+C:   00000080  l_IRAM                          
+C:   00000080  s_GSINIT4                       
+C:   000000AA  s_GSINIT                        
+C:   000000AA  s_GSINIT5                       
+C:   000000B9  s_GSFINAL                       
+C:   000000BC  s_CSEG                          
+C:   000006D5  l_CSEG                          
+C:   00000791  s_CONST                         
+C:   000007A1  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _fsrshift
+     00000080  G$P0$0$0                           Q2_TEMP
+     00000080  G$P0_0$0$0                         Q2_TEMP
+     00000080  _P0                                Q2_TEMP
+     00000080  _P0_0                              Q2_TEMP
+     00000081  G$P0_1$0$0                         Q2_TEMP
+     00000081  G$SP$0$0                           Q2_TEMP
+     00000081  _P0_1                              Q2_TEMP
+     00000081  _SP                                Q2_TEMP
+     00000082  G$DPL$0$0                          Q2_TEMP
+     00000082  G$P0_2$0$0                         Q2_TEMP
+     00000082  _DPL                               Q2_TEMP
+     00000082  _P0_2                              Q2_TEMP
+     00000083  G$DPH$0$0                          Q2_TEMP
+     00000083  G$P0_3$0$0                         Q2_TEMP
+     00000083  _DPH                               Q2_TEMP
+     00000083  _P0_3                              Q2_TEMP
+     00000084  G$P0_4$0$0                         Q2_TEMP
+     00000084  _P0_4                              Q2_TEMP
+     00000085  G$P0_5$0$0                         Q2_TEMP
+     00000085  _P0_5                              Q2_TEMP
+     00000086  G$P0_6$0$0                         Q2_TEMP
+     00000086  _P0_6                              Q2_TEMP
+     00000087  G$P0_7$0$0                         Q2_TEMP
+     00000087  G$PCON$0$0                         Q2_TEMP
+     00000087  _P0_7                              Q2_TEMP
+     00000087  _PCON                              Q2_TEMP
+     00000088  G$IT0$0$0                          Q2_TEMP
+     00000088  G$TCON$0$0                         Q2_TEMP
+     00000088  _IT0                               Q2_TEMP
+     00000088  _TCON                              Q2_TEMP
+     00000089  G$IE0$0$0                          Q2_TEMP
+     00000089  G$TMOD$0$0                         Q2_TEMP
+     00000089  _IE0                               Q2_TEMP
+     00000089  _TMOD                              Q2_TEMP
+     0000008A  G$IT1$0$0                          Q2_TEMP
+     0000008A  G$TL0$0$0                          Q2_TEMP
+     0000008A  _IT1                               Q2_TEMP
+     0000008A  _TL0                               Q2_TEMP
+     0000008B  G$IE1$0$0                          Q2_TEMP
+     0000008B  G$TL1$0$0                          Q2_TEMP
+     0000008B  _IE1                               Q2_TEMP
+     0000008B  _TL1                               Q2_TEMP
+     0000008C  G$TH0$0$0                          Q2_TEMP
+     0000008C  G$TR0$0$0                          Q2_TEMP
+     0000008C  _TH0                               Q2_TEMP
+     0000008C  _TR0                               Q2_TEMP
+     0000008D  G$TF0$0$0                          Q2_TEMP
+     0000008D  G$TH1$0$0                          Q2_TEMP
+     0000008D  _TF0                               Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  _TH1                               Q2_TEMP
+     0000008E  G$AUXR$0$0                         Q2_TEMP
+     0000008E  G$TR1$0$0                          Q2_TEMP
+     0000008E  _AUXR                              Q2_TEMP
+     0000008E  _TR1                               Q2_TEMP
+     0000008F  G$CKCON0$0$0                       Q2_TEMP
+     0000008F  G$TF1$0$0                          Q2_TEMP
+     0000008F  _CKCON0                            Q2_TEMP
+     0000008F  _TF1                               Q2_TEMP
+     00000090  G$P1$0$0                           Q2_TEMP
+     00000090  G$P1_0$0$0                         Q2_TEMP
+     00000090  _P1                                Q2_TEMP
+     00000090  _P1_0                              Q2_TEMP
+     00000091  G$P1_1$0$0                         Q2_TEMP
+     00000091  _P1_1                              Q2_TEMP
+     00000092  G$P1_2$0$0                         Q2_TEMP
+     00000092  _P1_2                              Q2_TEMP
+     00000093  G$P1_3$0$0                         Q2_TEMP
+     00000093  G$SSCON$0$0                        Q2_TEMP
+     00000093  _P1_3                              Q2_TEMP
+     00000093  _SSCON                             Q2_TEMP
+     00000094  G$P1_4$0$0                         Q2_TEMP
+     00000094  G$SSCS$0$0                         Q2_TEMP
+     00000094  _P1_4                              Q2_TEMP
+     00000094  _SSCS                              Q2_TEMP
+     00000095  G$P1_5$0$0                         Q2_TEMP
+     00000095  G$SSDAT$0$0                        Q2_TEMP
+     00000095  _P1_5                              Q2_TEMP
+     00000095  _SSDAT                             Q2_TEMP
+     00000096  G$P1_6$0$0                         Q2_TEMP
+     00000096  G$SSADR$0$0                        Q2_TEMP
+     00000096  _P1_6                              Q2_TEMP
+     00000096  _SSADR                             Q2_TEMP
+     00000097  G$P1_7$0$0                         Q2_TEMP
+     00000097  _P1_7                              Q2_TEMP
+     00000098  G$RI$0$0                           Q2_TEMP
+     00000098  G$SCON$0$0                         Q2_TEMP
+     00000098  _RI                                Q2_TEMP
+     00000098  _SCON                              Q2_TEMP
+     00000099  G$SBUF$0$0                         Q2_TEMP
+     00000099  G$TI$0$0                           Q2_TEMP
+     00000099  _SBUF                              Q2_TEMP
+     00000099  _TI                                Q2_TEMP
+     0000009A  G$BRL$0$0                          Q2_TEMP
+     0000009A  G$RB8$0$0                          Q2_TEMP
+     0000009A  _BRL                               Q2_TEMP
+     0000009A  _RB8                               Q2_TEMP
+     0000009B  G$BDRCON$0$0                       Q2_TEMP
+     0000009B  G$TB8$0$0                          Q2_TEMP
+     0000009B  _BDRCON                            Q2_TEMP
+     0000009B  _TB8                               Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009C  G$KBLS$0$0                         Q2_TEMP
+     0000009C  G$REN$0$0                          Q2_TEMP
+     0000009C  _KBLS                              Q2_TEMP
+     0000009C  _REN                               Q2_TEMP
+     0000009D  G$KBE$0$0                          Q2_TEMP
+     0000009D  G$SM2$0$0                          Q2_TEMP
+     0000009D  _KBE                               Q2_TEMP
+     0000009D  _SM2                               Q2_TEMP
+     0000009E  G$KBF$0$0                          Q2_TEMP
+     0000009E  G$SM1$0$0                          Q2_TEMP
+     0000009E  _KBF                               Q2_TEMP
+     0000009E  _SM1                               Q2_TEMP
+     0000009F  G$FE$0$0                           Q2_TEMP
+     0000009F  G$SM0$0$0                          Q2_TEMP
+     0000009F  _FE                                Q2_TEMP
+     0000009F  _SM0                               Q2_TEMP
+     000000A0  G$P2$0$0                           Q2_TEMP
+     000000A0  G$P2_0$0$0                         Q2_TEMP
+     000000A0  _P2                                Q2_TEMP
+     000000A0  _P2_0                              Q2_TEMP
+     000000A0  __XPAGE                            
+     000000A1  G$P2_1$0$0                         Q2_TEMP
+     000000A1  _P2_1                              Q2_TEMP
+     000000A2  G$AUXR1$0$0                        Q2_TEMP
+     000000A2  G$P2_2$0$0                         Q2_TEMP
+     000000A2  _AUXR1                             Q2_TEMP
+     000000A2  _P2_2                              Q2_TEMP
+     000000A3  G$P2_3$0$0                         Q2_TEMP
+     000000A3  G$PLLCON$0$0                       Q2_TEMP
+     000000A3  _P2_3                              Q2_TEMP
+     000000A3  _PLLCON                            Q2_TEMP
+     000000A4  G$P2_4$0$0                         Q2_TEMP
+     000000A4  G$PLLDIV$0$0                       Q2_TEMP
+     000000A4  _P2_4                              Q2_TEMP
+     000000A4  _PLLDIV                            Q2_TEMP
+     000000A5  G$P2_5$0$0                         Q2_TEMP
+     000000A5  _P2_5                              Q2_TEMP
+     000000A6  G$P2_6$0$0                         Q2_TEMP
+     000000A6  G$WDTRST$0$0                       Q2_TEMP
+     000000A6  _P2_6                              Q2_TEMP
+     000000A6  _WDTRST                            Q2_TEMP
+     000000A7  G$P2_7$0$0                         Q2_TEMP
+     000000A7  G$WDTPRG$0$0                       Q2_TEMP
+     000000A7  _P2_7                              Q2_TEMP
+     000000A7  _WDTPRG                            Q2_TEMP
+     000000A8  G$EX0$0$0                          Q2_TEMP
+     000000A8  G$IE$0$0                           Q2_TEMP
+     000000A8  G$IEN0$0$0                         Q2_TEMP
+     000000A8  _EX0                               Q2_TEMP
+     000000A8  _IE                                Q2_TEMP
+     000000A8  _IEN0                              Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000A9  G$ET0$0$0                          Q2_TEMP
+     000000A9  G$SADDR$0$0                        Q2_TEMP
+     000000A9  _ET0                               Q2_TEMP
+     000000A9  _SADDR                             Q2_TEMP
+     000000AA  G$EX1$0$0                          Q2_TEMP
+     000000AA  _EX1                               Q2_TEMP
+     000000AB  G$ET1$0$0                          Q2_TEMP
+     000000AB  _ET1                               Q2_TEMP
+     000000AC  G$ES$0$0                           Q2_TEMP
+     000000AC  _ES                                Q2_TEMP
+     000000AD  G$ET2$0$0                          Q2_TEMP
+     000000AD  _ET2                               Q2_TEMP
+     000000AE  G$EC$0$0                           Q2_TEMP
+     000000AE  _EC                                Q2_TEMP
+     000000AF  G$CKCON1$0$0                       Q2_TEMP
+     000000AF  G$EA$0$0                           Q2_TEMP
+     000000AF  _CKCON1                            Q2_TEMP
+     000000AF  _EA                                Q2_TEMP
+     000000B0  G$P3$0$0                           Q2_TEMP
+     000000B0  G$P3_0$0$0                         Q2_TEMP
+     000000B0  _P3                                Q2_TEMP
+     000000B0  _P3_0                              Q2_TEMP
+     000000B1  G$IEN1$0$0                         Q2_TEMP
+     000000B1  G$P3_1$0$0                         Q2_TEMP
+     000000B1  _IEN1                              Q2_TEMP
+     000000B1  _P3_1                              Q2_TEMP
+     000000B2  G$IPL1$0$0                         Q2_TEMP
+     000000B2  G$P3_2$0$0                         Q2_TEMP
+     000000B2  _IPL1                              Q2_TEMP
+     000000B2  _P3_2                              Q2_TEMP
+     000000B3  G$IPH1$0$0                         Q2_TEMP
+     000000B3  G$P3_3$0$0                         Q2_TEMP
+     000000B3  _IPH1                              Q2_TEMP
+     000000B3  _P3_3                              Q2_TEMP
+     000000B4  G$P3_4$0$0                         Q2_TEMP
+     000000B4  _P3_4                              Q2_TEMP
+     000000B5  G$P3_5$0$0                         Q2_TEMP
+     000000B5  _P3_5                              Q2_TEMP
+     000000B6  G$P3_6$0$0                         Q2_TEMP
+     000000B6  _P3_6                              Q2_TEMP
+     000000B7  G$IPH0$0$0                         Q2_TEMP
+     000000B7  G$P3_7$0$0                         Q2_TEMP
+     000000B7  _IPH0                              Q2_TEMP
+     000000B7  _P3_7                              Q2_TEMP
+     000000B8  G$IPL0$0$0                         Q2_TEMP
+     000000B8  G$PX0L$0$0                         Q2_TEMP
+     000000B8  _IPL0                              Q2_TEMP
+     000000B8  _PX0L                              Q2_TEMP
+     000000B9  G$PT0L$0$0                         Q2_TEMP
+     000000B9  G$SADEN$0$0                        Q2_TEMP
+     000000B9  _PT0L                              Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B9  _SADEN                             Q2_TEMP
+     000000BA  G$PX1L$0$0                         Q2_TEMP
+     000000BA  G$UFNUML$0$0                       Q2_TEMP
+     000000BA  _PX1L                              Q2_TEMP
+     000000BA  _UFNUML                            Q2_TEMP
+     000000BB  G$PT1L$0$0                         Q2_TEMP
+     000000BB  G$UFNUMH$0$0                       Q2_TEMP
+     000000BB  _PT1L                              Q2_TEMP
+     000000BB  _UFNUMH                            Q2_TEMP
+     000000BC  G$PSL$0$0                          Q2_TEMP
+     000000BC  G$USBCON$0$0                       Q2_TEMP
+     000000BC  _PSL                               Q2_TEMP
+     000000BC  _USBCON                            Q2_TEMP
+     000000BD  G$PT2L$0$0                         Q2_TEMP
+     000000BD  G$USBINT$0$0                       Q2_TEMP
+     000000BD  _PT2L                              Q2_TEMP
+     000000BD  _USBINT                            Q2_TEMP
+     000000BE  G$PPCL$0$0                         Q2_TEMP
+     000000BE  G$USBIEN$0$0                       Q2_TEMP
+     000000BE  _PPCL                              Q2_TEMP
+     000000BE  _USBIEN                            Q2_TEMP
+     000000C0  G$P4$0$0                           Q2_TEMP
+     000000C0  G$P4_0$0$0                         Q2_TEMP
+     000000C0  _P4                                Q2_TEMP
+     000000C0  _P4_0                              Q2_TEMP
+     000000C1  G$P4_1$0$0                         Q2_TEMP
+     000000C1  _P4_1                              Q2_TEMP
+     000000C2  G$UEPIEN$0$0                       Q2_TEMP
+     000000C2  _UEPIEN                            Q2_TEMP
+     000000C3  G$SPCON$0$0                        Q2_TEMP
+     000000C3  _SPCON                             Q2_TEMP
+     000000C4  G$SPSTA$0$0                        Q2_TEMP
+     000000C4  _SPSTA                             Q2_TEMP
+     000000C5  G$SPDAT$0$0                        Q2_TEMP
+     000000C5  _SPDAT                             Q2_TEMP
+     000000C6  G$USBADDR$0$0                      Q2_TEMP
+     000000C6  _USBADDR                           Q2_TEMP
+     000000C7  G$UEPNUM$0$0                       Q2_TEMP
+     000000C7  _UEPNUM                            Q2_TEMP
+     000000C8  G$CP_RL2$0$0                       Q2_TEMP
+     000000C8  G$T2CON$0$0                        Q2_TEMP
+     000000C8  _CP_RL2                            Q2_TEMP
+     000000C8  _T2CON                             Q2_TEMP
+     000000C9  G$C_T2$0$0                         Q2_TEMP
+     000000C9  G$T2MOD$0$0                        Q2_TEMP
+     000000C9  _C_T2                              Q2_TEMP
+     000000C9  _T2MOD                             Q2_TEMP
+     000000CA  G$RCAP2L$0$0                       Q2_TEMP
+     000000CA  G$TR2$0$0                          Q2_TEMP
+     000000CA  _RCAP2L                            Q2_TEMP
+     000000CA  _TR2                               Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CB  G$EXEN2$0$0                        Q2_TEMP
+     000000CB  G$RCAP2H$0$0                       Q2_TEMP
+     000000CB  _EXEN2                             Q2_TEMP
+     000000CB  _RCAP2H                            Q2_TEMP
+     000000CC  G$TCLK$0$0                         Q2_TEMP
+     000000CC  G$TL2$0$0                          Q2_TEMP
+     000000CC  _TCLK                              Q2_TEMP
+     000000CC  _TL2                               Q2_TEMP
+     000000CD  G$RCLK$0$0                         Q2_TEMP
+     000000CD  G$TH2$0$0                          Q2_TEMP
+     000000CD  _RCLK                              Q2_TEMP
+     000000CD  _TH2                               Q2_TEMP
+     000000CE  G$EXF2$0$0                         Q2_TEMP
+     000000CE  G$UEPSTAX$0$0                      Q2_TEMP
+     000000CE  _EXF2                              Q2_TEMP
+     000000CE  _UEPSTAX                           Q2_TEMP
+     000000CF  G$TF2$0$0                          Q2_TEMP
+     000000CF  G$UEPDATX$0$0                      Q2_TEMP
+     000000CF  _TF2                               Q2_TEMP
+     000000CF  _UEPDATX                           Q2_TEMP
+     000000D0  G$P$0$0                            Q2_TEMP
+     000000D0  G$PSW$0$0                          Q2_TEMP
+     000000D0  _P                                 Q2_TEMP
+     000000D0  _PSW                               Q2_TEMP
+     000000D1  G$F1$0$0                           Q2_TEMP
+     000000D1  G$FCON$0$0                         Q2_TEMP
+     000000D1  _F1                                Q2_TEMP
+     000000D1  _FCON                              Q2_TEMP
+     000000D2  G$EECON$0$0                        Q2_TEMP
+     000000D2  G$OV$0$0                           Q2_TEMP
+     000000D2  _EECON                             Q2_TEMP
+     000000D2  _OV                                Q2_TEMP
+     000000D3  G$RS0$0$0                          Q2_TEMP
+     000000D3  _RS0                               Q2_TEMP
+     000000D4  G$RS1$0$0                          Q2_TEMP
+     000000D4  G$UEPCONX$0$0                      Q2_TEMP
+     000000D4  _RS1                               Q2_TEMP
+     000000D4  _UEPCONX                           Q2_TEMP
+     000000D5  G$F0$0$0                           Q2_TEMP
+     000000D5  G$UEPRST$0$0                       Q2_TEMP
+     000000D5  _F0                                Q2_TEMP
+     000000D5  _UEPRST                            Q2_TEMP
+     000000D6  G$AC$0$0                           Q2_TEMP
+     000000D6  _AC                                Q2_TEMP
+     000000D7  G$CY$0$0                           Q2_TEMP
+     000000D7  _CY                                Q2_TEMP
+     000000D8  G$CCF0$0$0                         Q2_TEMP
+     000000D8  G$CCON$0$0                         Q2_TEMP
+     000000D8  _CCF0                              Q2_TEMP
+     000000D8  _CCON                              Q2_TEMP
+     000000D9  G$CCF1$0$0                         Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D9  G$CMOD$0$0                         Q2_TEMP
+     000000D9  _CCF1                              Q2_TEMP
+     000000D9  _CMOD                              Q2_TEMP
+     000000DA  G$CCAPM0$0$0                       Q2_TEMP
+     000000DA  G$CCF2$0$0                         Q2_TEMP
+     000000DA  _CCAPM0                            Q2_TEMP
+     000000DA  _CCF2                              Q2_TEMP
+     000000DB  G$CCAPM1$0$0                       Q2_TEMP
+     000000DB  G$CCF3$0$0                         Q2_TEMP
+     000000DB  _CCAPM1                            Q2_TEMP
+     000000DB  _CCF3                              Q2_TEMP
+     000000DC  G$CCAPM2$0$0                       Q2_TEMP
+     000000DC  G$CCF4$0$0                         Q2_TEMP
+     000000DC  _CCAPM2                            Q2_TEMP
+     000000DC  _CCF4                              Q2_TEMP
+     000000DD  G$CCAPM3$0$0                       Q2_TEMP
+     000000DD  _CCAPM3                            Q2_TEMP
+     000000DE  G$CCAPM4$0$0                       Q2_TEMP
+     000000DE  G$CR$0$0                           Q2_TEMP
+     000000DE  _CCAPM4                            Q2_TEMP
+     000000DE  _CR                                Q2_TEMP
+     000000DF  G$CF$0$0                           Q2_TEMP
+     000000DF  _CF                                Q2_TEMP
+     000000E0  G$ACC$0$0                          Q2_TEMP
+     000000E0  _ACC                               Q2_TEMP
+     000000E2  G$UBYCTLX$0$0                      Q2_TEMP
+     000000E2  _UBYCTLX                           Q2_TEMP
+     000000E3  G$UBYCTHX$0$0                      Q2_TEMP
+     000000E3  _UBYCTHX                           Q2_TEMP
+     000000E9  G$CL$0$0                           Q2_TEMP
+     000000E9  _CL                                Q2_TEMP
+     000000EA  G$CCAP0L$0$0                       Q2_TEMP
+     000000EA  _CCAP0L                            Q2_TEMP
+     000000EB  G$CCAP1L$0$0                       Q2_TEMP
+     000000EB  _CCAP1L                            Q2_TEMP
+     000000EC  G$CCAP2L$0$0                       Q2_TEMP
+     000000EC  _CCAP2L                            Q2_TEMP
+     000000ED  G$CCAP3L$0$0                       Q2_TEMP
+     000000ED  _CCAP3L                            Q2_TEMP
+     000000EE  G$CCAP4L$0$0                       Q2_TEMP
+     000000EE  _CCAP4L                            Q2_TEMP
+     000000F0  G$B$0$0                            Q2_TEMP
+     000000F0  _B                                 Q2_TEMP
+     000000F1  G$LEDCON$0$0                       Q2_TEMP
+     000000F1  _LEDCON                            Q2_TEMP
+     000000F5  _B_5                               _gptrget
+     000000F6  _B_6                               _gptrget
+     000000F7  _B_7                               _gptrget
+     000000F8  G$EP0INT$0$0                       Q2_TEMP
+     000000F8  G$UEPINT$0$0                       Q2_TEMP
+     000000F8  _EP0INT                            Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F8  _UEPINT                            Q2_TEMP
+     000000F9  G$CH$0$0                           Q2_TEMP
+     000000F9  G$EP1INT$0$0                       Q2_TEMP
+     000000F9  _CH                                Q2_TEMP
+     000000F9  _EP1INT                            Q2_TEMP
+     000000FA  G$CCAP0H$0$0                       Q2_TEMP
+     000000FA  G$EP2INT$0$0                       Q2_TEMP
+     000000FA  _CCAP0H                            Q2_TEMP
+     000000FA  _EP2INT                            Q2_TEMP
+     000000FB  G$CCAP1H$0$0                       Q2_TEMP
+     000000FB  G$EP3INT$0$0                       Q2_TEMP
+     000000FB  _CCAP1H                            Q2_TEMP
+     000000FB  _EP3INT                            Q2_TEMP
+     000000FC  G$CCAP2H$0$0                       Q2_TEMP
+     000000FC  G$EP4INT$0$0                       Q2_TEMP
+     000000FC  _CCAP2H                            Q2_TEMP
+     000000FC  _EP4INT                            Q2_TEMP
+     000000FD  G$CCAP3H$0$0                       Q2_TEMP
+     000000FD  G$EP5INT$0$0                       Q2_TEMP
+     000000FD  _CCAP3H                            Q2_TEMP
+     000000FD  _EP5INT                            Q2_TEMP
+     000000FE  G$CCAP4H$0$0                       Q2_TEMP
+     000000FE  G$EP6INT$0$0                       Q2_TEMP
+     000000FE  _CCAP4H                            Q2_TEMP
+     000000FE  _EP6INT                            Q2_TEMP
+     00008C8A  G$TMR0$0$0                         Q2_TEMP
+     00008C8A  _TMR0                              Q2_TEMP
+     00008D8B  G$TMR1$0$0                         Q2_TEMP
+     00008D8B  _TMR1                              Q2_TEMP
+     0000BBBA  G$UFNUM$0$0                        Q2_TEMP
+     0000BBBA  _UFNUM                             Q2_TEMP
+     0000CBCA  G$RCAP2$0$0                        Q2_TEMP
+     0000CBCA  _RCAP2                             Q2_TEMP
+     0000CDCC  G$TMR2$0$0                         Q2_TEMP
+     0000CDCC  _TMR2                              Q2_TEMP
+     0000E3E2  G$UBYCTX$0$0                       Q2_TEMP
+     0000E3E2  _UBYCTX                            Q2_TEMP
+     0000F9E9  G$PCA$0$0                          Q2_TEMP
+     0000F9E9  _PCA                               Q2_TEMP
+     0000FAEA  G$CCAP0$0$0                        Q2_TEMP
+     0000FAEA  _CCAP0                             Q2_TEMP
+     0000FBEB  G$CCAP1$0$0                        Q2_TEMP
+     0000FBEB  _CCAP1                             Q2_TEMP
+     0000FCEC  G$CCAP2$0$0                        Q2_TEMP
+     0000FCEC  _CCAP2                             Q2_TEMP
+     0000FDED  G$CCAP3$0$0                        Q2_TEMP
+     0000FDED  _CCAP3                             Q2_TEMP
+     0000FEEE  G$CCAP4$0$0                        Q2_TEMP
+     0000FEEE  _CCAP4                             Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000077 =         119. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  G$adcVal$0$0                       Q2_TEMP
+     00000008  _adcVal                            Q2_TEMP
+     0000000A  G$avgVal$0$0                       Q2_TEMP
+     0000000A  _avgVal                            Q2_TEMP
+     0000000C  G$serial_data$0$0                  Q2_TEMP
+     0000000C  _serial_data                       Q2_TEMP
+     0000000D  G$data_save_high$0$0               Q2_TEMP
+     0000000D  _data_save_high                    Q2_TEMP
+     0000000E  G$data_save_low$0$0                Q2_TEMP
+     0000000E  _data_save_low                     Q2_TEMP
+     0000000F  G$i$0$0                            Q2_TEMP
+     0000000F  _i                                 Q2_TEMP
+     00000010  G$voltage$0$0                      Q2_TEMP
+     00000010  _voltage                           Q2_TEMP
+     00000014  LQ2_TEMP.LCD_StringWrite$length$   Q2_TEMP
+     00000014  _LCD_StringWrite_PARM_2            Q2_TEMP
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000015    00000002 =           2. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000015  __divsint_PARM_2                   _divuint
+     00000015  __divuint_PARM_2                   _divuint
+     00000015  __modsint_PARM_2                   _moduint
+     00000015  __moduint_PARM_2                   _moduint
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000021    0000005F =          95. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000021  __start__stack                     Q2_TEMP
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000051 =          81. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$Q2-TEMP$736                      Q2_TEMP
+C:   00000003  A$Q2-TEMP$737                      Q2_TEMP
+C:   0000000B  A$Q2-TEMP$739                      Q2_TEMP
+C:   00000013  A$Q2-TEMP$741                      Q2_TEMP
+C:   0000001B  A$Q2-TEMP$743                      Q2_TEMP
+C:   00000023  A$Q2-TEMP$745                      Q2_TEMP
+C:   0000002B  A$Q2-TEMP$747                      Q2_TEMP
+C:   00000033  A$Q2-TEMP$749                      Q2_TEMP
+C:   0000003B  A$Q2-TEMP$751                      Q2_TEMP
+C:   00000043  A$Q2-TEMP$753                      Q2_TEMP
+C:   0000004B  A$Q2-TEMP$755                      Q2_TEMP
+C:   0000004E  A$Q2-TEMP$796                      Q2_TEMP
+C:   0000004E  __sdcc_program_startup             Q2_TEMP
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000051    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000051  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000054    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             0000005E    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000005E  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000080    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000080  __mcs51_genRAMCLEAR                
+C:   00000086  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000000AA    0000000F =          15. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AA  A$Q2-TEMP$771                      Q2_TEMP
+C:   000000AB  A$Q2-TEMP$772                      Q2_TEMP
+C:   000000AD  A$Q2-TEMP$773                      Q2_TEMP
+C:   000000AF  A$Q2-TEMP$776                      Q2_TEMP
+C:   000000AF  C$Q2_TEMP.c$24$1$42                Q2_TEMP
+C:   000000B1  A$Q2-TEMP$777                      Q2_TEMP
+C:   000000B3  A$Q2-TEMP$781                      Q2_TEMP
+C:   000000B3  C$Q2_TEMP.c$28$1$42                Q2_TEMP
+C:   000000B5  A$Q2-TEMP$784                      Q2_TEMP
+C:   000000B5  C$Q2_TEMP.c$21$1$42                Q2_TEMP
+C:   000000B7  A$Q2-TEMP$787                      Q2_TEMP
+C:   000000B7  C$Q2_TEMP.c$22$1$42                Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000B9    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B9  A$Q2-TEMP$789                      Q2_TEMP
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000BC  A$Q2-TEMP$822                      Q2_TEMP
+C:   000000BC  C$Q2_TEMP.c$38$0$0                 Q2_TEMP
+C:   000000BC  C$Q2_TEMP.c$40$1$20                Q2_TEMP
+C:   000000BC  G$main$0$0                         Q2_TEMP
+C:   000000BC  _main                              Q2_TEMP
+C:   000000BF  A$Q2-TEMP$825                      Q2_TEMP
+C:   000000BF  C$Q2_TEMP.c$41$1$20                Q2_TEMP
+C:   000000C2  A$Q2-TEMP$828                      Q2_TEMP
+C:   000000C2  C$Q2_TEMP.c$42$1$20                Q2_TEMP
+C:   000000C5  A$Q2-TEMP$831                      Q2_TEMP
+C:   000000C5  C$Q2_TEMP.c$44$1$20                Q2_TEMP
+C:   000000C8  A$Q2-TEMP$834                      Q2_TEMP
+C:   000000C8  C$Q2_TEMP.c$45$1$20                Q2_TEMP
+C:   000000CB  A$Q2-TEMP$837                      Q2_TEMP
+C:   000000CB  C$Q2_TEMP.c$46$1$20                Q2_TEMP
+C:   000000CE  A$Q2-TEMP$840                      Q2_TEMP
+C:   000000CE  C$Q2_TEMP.c$47$1$20                Q2_TEMP
+C:   000000D1  A$Q2-TEMP$841                      Q2_TEMP
+C:   000000D4  A$Q2-TEMP$842                      Q2_TEMP
+C:   000000D7  A$Q2-TEMP$843                      Q2_TEMP
+C:   000000DA  A$Q2-TEMP$847                      Q2_TEMP
+C:   000000DA  C$Q2_TEMP.c$51$2$21                Q2_TEMP
+C:   000000DD  A$Q2-TEMP$850                      Q2_TEMP
+C:   000000E0  A$Q2-TEMP$851                      Q2_TEMP
+C:   000000E2  A$Q2-TEMP$855                      Q2_TEMP
+C:   000000E2  C$Q2_TEMP.c$57$4$23                Q2_TEMP
+C:   000000E4  A$Q2-TEMP$858                      Q2_TEMP
+C:   000000E4  C$Q2_TEMP.c$58$4$23                Q2_TEMP
+C:   000000E7  A$Q2-TEMP$864                      Q2_TEMP
+C:   000000E7  C$Q2_TEMP.c$59$4$23                Q2_TEMP
+C:   000000E7  C$Q2_TEMP.c$60$4$23                Q2_TEMP
+C:   000000EA  A$Q2-TEMP$865                      Q2_TEMP
+C:   000000EC  A$Q2-TEMP$869                      Q2_TEMP
+C:   000000EC  C$Q2_TEMP.c$61$4$23                Q2_TEMP
+C:   000000EF  A$Q2-TEMP$873                      Q2_TEMP
+C:   000000EF  C$Q2_TEMP.c$62$4$23                Q2_TEMP
+C:   000000F2  A$Q2-TEMP$876                      Q2_TEMP
+C:   000000F2  C$Q2_TEMP.c$63$4$23                Q2_TEMP
+C:   000000F4  A$Q2-TEMP$877                      Q2_TEMP
+C:   000000F6  A$Q2-TEMP$878                      Q2_TEMP
+C:   000000F8  A$Q2-TEMP$881                      Q2_TEMP
+C:   000000F8  C$Q2_TEMP.c$64$4$23                Q2_TEMP
+C:   000000FA  A$Q2-TEMP$884                      Q2_TEMP
+C:   000000FA  C$Q2_TEMP.c$66$4$23                Q2_TEMP
+C:   000000FD  A$Q2-TEMP$888                      Q2_TEMP
+C:   000000FD  C$Q2_TEMP.c$67$4$23                Q2_TEMP
+C:   00000100  A$Q2-TEMP$891                      Q2_TEMP
+C:   00000100  C$Q2_TEMP.c$68$4$23                Q2_TEMP
+C:   00000103  A$Q2-TEMP$894                      Q2_TEMP
+C:   00000103  C$Q2_TEMP.c$69$4$23                Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000105  A$Q2-TEMP$897                      Q2_TEMP
+C:   00000105  C$Q2_TEMP.c$70$4$23                Q2_TEMP
+C:   00000107  A$Q2-TEMP$900                      Q2_TEMP
+C:   00000107  C$Q2_TEMP.c$72$4$23                Q2_TEMP
+C:   00000109  A$Q2-TEMP$901                      Q2_TEMP
+C:   0000010B  A$Q2-TEMP$902                      Q2_TEMP
+C:   0000010D  A$Q2-TEMP$903                      Q2_TEMP
+C:   0000010F  A$Q2-TEMP$904                      Q2_TEMP
+C:   00000110  A$Q2-TEMP$905                      Q2_TEMP
+C:   00000111  A$Q2-TEMP$906                      Q2_TEMP
+C:   00000113  A$Q2-TEMP$907                      Q2_TEMP
+C:   00000114  A$Q2-TEMP$908                      Q2_TEMP
+C:   00000115  A$Q2-TEMP$909                      Q2_TEMP
+C:   00000117  A$Q2-TEMP$912                      Q2_TEMP
+C:   00000117  C$Q2_TEMP.c$73$4$23                Q2_TEMP
+C:   00000119  A$Q2-TEMP$913                      Q2_TEMP
+C:   0000011B  A$Q2-TEMP$914                      Q2_TEMP
+C:   0000011D  A$Q2-TEMP$915                      Q2_TEMP
+C:   0000011F  A$Q2-TEMP$916                      Q2_TEMP
+C:   00000121  A$Q2-TEMP$917                      Q2_TEMP
+C:   00000123  A$Q2-TEMP$920                      Q2_TEMP
+C:   00000123  C$Q2_TEMP.c$55$3$22                Q2_TEMP
+C:   00000125  A$Q2-TEMP$921                      Q2_TEMP
+C:   00000127  A$Q2-TEMP$922                      Q2_TEMP
+C:   00000129  A$Q2-TEMP$923                      Q2_TEMP
+C:   0000012B  A$Q2-TEMP$926                      Q2_TEMP
+C:   0000012B  C$Q2_TEMP.c$76$1$20                Q2_TEMP
+C:   0000012E  A$Q2-TEMP$927                      Q2_TEMP
+C:   00000131  A$Q2-TEMP$928                      Q2_TEMP
+C:   00000134  A$Q2-TEMP$929                      Q2_TEMP
+C:   00000136  A$Q2-TEMP$930                      Q2_TEMP
+C:   00000138  A$Q2-TEMP$931                      Q2_TEMP
+C:   0000013A  A$Q2-TEMP$932                      Q2_TEMP
+C:   0000013B  A$Q2-TEMP$933                      Q2_TEMP
+C:   0000013C  A$Q2-TEMP$934                      Q2_TEMP
+C:   0000013E  A$Q2-TEMP$935                      Q2_TEMP
+C:   00000140  A$Q2-TEMP$936                      Q2_TEMP
+C:   00000142  A$Q2-TEMP$937                      Q2_TEMP
+C:   00000144  A$Q2-TEMP$938                      Q2_TEMP
+C:   00000146  A$Q2-TEMP$939                      Q2_TEMP
+C:   00000148  A$Q2-TEMP$940                      Q2_TEMP
+C:   0000014A  A$Q2-TEMP$941                      Q2_TEMP
+C:   0000014C  A$Q2-TEMP$942                      Q2_TEMP
+C:   0000014E  A$Q2-TEMP$943                      Q2_TEMP
+C:   0000014F  A$Q2-TEMP$944                      Q2_TEMP
+C:   00000152  A$Q2-TEMP$945                      Q2_TEMP
+C:   00000154  A$Q2-TEMP$946                      Q2_TEMP
+C:   00000156  A$Q2-TEMP$947                      Q2_TEMP
+C:   00000158  A$Q2-TEMP$948                      Q2_TEMP
+C:   00000159  A$Q2-TEMP$949                      Q2_TEMP
+C:   0000015B  A$Q2-TEMP$950                      Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000015D  A$Q2-TEMP$951                      Q2_TEMP
+C:   0000015F  A$Q2-TEMP$952                      Q2_TEMP
+C:   00000161  A$Q2-TEMP$953                      Q2_TEMP
+C:   00000163  A$Q2-TEMP$954                      Q2_TEMP
+C:   00000165  A$Q2-TEMP$955                      Q2_TEMP
+C:   00000166  A$Q2-TEMP$956                      Q2_TEMP
+C:   00000169  A$Q2-TEMP$959                      Q2_TEMP
+C:   00000169  C$Q2_TEMP.c$77$1$20                Q2_TEMP
+C:   0000016C  A$Q2-TEMP$960                      Q2_TEMP
+C:   0000016F  A$Q2-TEMP$961                      Q2_TEMP
+C:   00000172  A$Q2-TEMP$962                      Q2_TEMP
+C:   00000175  A$Q2-TEMP$963                      Q2_TEMP
+C:   00000177  A$Q2-TEMP$964                      Q2_TEMP
+C:   00000179  A$Q2-TEMP$965                      Q2_TEMP
+C:   0000017B  A$Q2-TEMP$966                      Q2_TEMP
+C:   0000017C  A$Q2-TEMP$967                      Q2_TEMP
+C:   0000017E  A$Q2-TEMP$968                      Q2_TEMP
+C:   00000180  A$Q2-TEMP$969                      Q2_TEMP
+C:   00000182  A$Q2-TEMP$970                      Q2_TEMP
+C:   00000184  A$Q2-TEMP$971                      Q2_TEMP
+C:   00000187  A$Q2-TEMP$972                      Q2_TEMP
+C:   0000018A  A$Q2-TEMP$973                      Q2_TEMP
+C:   0000018C  A$Q2-TEMP$974                      Q2_TEMP
+C:   0000018F  A$Q2-TEMP$975                      Q2_TEMP
+C:   00000191  A$Q2-TEMP$976                      Q2_TEMP
+C:   00000193  A$Q2-TEMP$977                      Q2_TEMP
+C:   00000195  A$Q2-TEMP$978                      Q2_TEMP
+C:   00000196  A$Q2-TEMP$979                      Q2_TEMP
+C:   00000198  A$Q2-TEMP$980                      Q2_TEMP
+C:   0000019A  A$Q2-TEMP$981                      Q2_TEMP
+C:   0000019C  A$Q2-TEMP$982                      Q2_TEMP
+C:   0000019E  A$Q2-TEMP$983                      Q2_TEMP
+C:   000001A0  A$Q2-TEMP$984                      Q2_TEMP
+C:   000001A2  A$Q2-TEMP$985                      Q2_TEMP
+C:   000001A3  A$Q2-TEMP$986                      Q2_TEMP
+C:   000001A6  A$Q2-TEMP$987                      Q2_TEMP
+C:   000001A9  A$Q2-TEMP$988                      Q2_TEMP
+C:   000001AC  A$Q2-TEMP$991                      Q2_TEMP
+C:   000001AC  C$Q2_TEMP.c$78$3$22                Q2_TEMP
+C:   000001AF  A$Q2-TEMP$992                      Q2_TEMP
+C:   000001B2  A$Q2-TEMP$995                      Q2_TEMP
+C:   000001B2  C$Q2_TEMP.c$79$3$22                Q2_TEMP
+C:   000001B5  A$Q2-TEMP$996                      Q2_TEMP
+C:   000001B8  A$Q2-TEMP$997                      Q2_TEMP
+C:   000001BB  A$Q2-TEMP$998                      Q2_TEMP
+C:   000001BE  A$Q2-TEMP$999                      Q2_TEMP
+C:   000001C1  A$Q2-TEMP$1000                     Q2_TEMP
+C:   000001C3  A$Q2-TEMP$1001                     Q2_TEMP
+C:   000001C5  A$Q2-TEMP$1002                     Q2_TEMP
+C:   000001C6  A$Q2-TEMP$1003                     Q2_TEMP
+C:   000001C8  A$Q2-TEMP$1006                     Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001C8  C$Q2_TEMP.c$80$1$20                Q2_TEMP
+C:   000001CB  A$Q2-TEMP$1007                     Q2_TEMP
+C:   000001CE  A$Q2-TEMP$1008                     Q2_TEMP
+C:   000001D1  A$Q2-TEMP$1009                     Q2_TEMP
+C:   000001D4  A$Q2-TEMP$1010                     Q2_TEMP
+C:   000001D7  A$Q2-TEMP$1013                     Q2_TEMP
+C:   000001D7  C$Q2_TEMP.c$81$3$22                Q2_TEMP
+C:   000001DA  A$Q2-TEMP$1014                     Q2_TEMP
+C:   000001DD  A$Q2-TEMP$1015                     Q2_TEMP
+C:   000001E0  A$Q2-TEMP$1016                     Q2_TEMP
+C:   000001E3  A$Q2-TEMP$1017                     Q2_TEMP
+C:   000001E6  A$Q2-TEMP$1018                     Q2_TEMP
+C:   000001E8  A$Q2-TEMP$1019                     Q2_TEMP
+C:   000001EA  A$Q2-TEMP$1020                     Q2_TEMP
+C:   000001EB  A$Q2-TEMP$1021                     Q2_TEMP
+C:   000001ED  A$Q2-TEMP$1024                     Q2_TEMP
+C:   000001ED  C$Q2_TEMP.c$82$1$20                Q2_TEMP
+C:   000001F0  A$Q2-TEMP$1025                     Q2_TEMP
+C:   000001F3  A$Q2-TEMP$1026                     Q2_TEMP
+C:   000001F6  A$Q2-TEMP$1027                     Q2_TEMP
+C:   000001F9  A$Q2-TEMP$1028                     Q2_TEMP
+C:   000001FC  A$Q2-TEMP$1031                     Q2_TEMP
+C:   000001FC  C$Q2_TEMP.c$83$3$22                Q2_TEMP
+C:   000001FF  A$Q2-TEMP$1032                     Q2_TEMP
+C:   00000202  A$Q2-TEMP$1033                     Q2_TEMP
+C:   00000205  A$Q2-TEMP$1034                     Q2_TEMP
+C:   00000208  A$Q2-TEMP$1035                     Q2_TEMP
+C:   0000020B  A$Q2-TEMP$1036                     Q2_TEMP
+C:   0000020D  A$Q2-TEMP$1037                     Q2_TEMP
+C:   0000020F  A$Q2-TEMP$1038                     Q2_TEMP
+C:   00000210  A$Q2-TEMP$1039                     Q2_TEMP
+C:   00000212  A$Q2-TEMP$1042                     Q2_TEMP
+C:   00000212  C$Q2_TEMP.c$84$1$20                Q2_TEMP
+C:   00000215  A$Q2-TEMP$1043                     Q2_TEMP
+C:   00000218  A$Q2-TEMP$1044                     Q2_TEMP
+C:   0000021B  A$Q2-TEMP$1045                     Q2_TEMP
+C:   0000021E  A$Q2-TEMP$1046                     Q2_TEMP
+C:   00000221  A$Q2-TEMP$1047                     Q2_TEMP
+C:   00000224  A$Q2-TEMP$1048                     Q2_TEMP
+C:   00000227  A$Q2-TEMP$1051                     Q2_TEMP
+C:   00000227  C$Q2_TEMP.c$85$3$22                Q2_TEMP
+C:   0000022A  A$Q2-TEMP$1054                     Q2_TEMP
+C:   0000022A  C$Q2_TEMP.c$86$3$22                Q2_TEMP
+C:   0000022D  A$Q2-TEMP$1055                     Q2_TEMP
+C:   00000230  A$Q2-TEMP$1056                     Q2_TEMP
+C:   00000233  A$Q2-TEMP$1057                     Q2_TEMP
+C:   00000236  A$Q2-TEMP$1058                     Q2_TEMP
+C:   00000239  A$Q2-TEMP$1061                     Q2_TEMP
+C:   00000239  C$Q2_TEMP.c$90$1$20                Q2_TEMP
+C:   00000239  XG$main$0$0                        Q2_TEMP
+C:   0000023A  A$Q2-TEMP$1072                     Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000023A  C$Q2_TEMP.c$97$1$20                Q2_TEMP
+C:   0000023A  G$it_SPI$0$0                       Q2_TEMP
+C:   0000023A  _it_SPI                            Q2_TEMP
+C:   0000023C  A$Q2-TEMP$1073                     Q2_TEMP
+C:   0000023E  A$Q2-TEMP$1074                     Q2_TEMP
+C:   00000241  A$Q2-TEMP$1077                     Q2_TEMP
+C:   00000241  C$Q2_TEMP.c$99$1$25                Q2_TEMP
+C:   00000243  A$Q2-TEMP$1078                     Q2_TEMP
+C:   00000246  A$Q2-TEMP$1079                     Q2_TEMP
+C:   00000248  A$Q2-TEMP$1081                     Q2_TEMP
+C:   0000024B  A$Q2-TEMP$1082                     Q2_TEMP
+C:   0000024D  A$Q2-TEMP$1084                     Q2_TEMP
+C:   00000250  A$Q2-TEMP$1087                     Q2_TEMP
+C:   00000250  C$Q2_TEMP.c$102$2$26               Q2_TEMP
+C:   00000253  A$Q2-TEMP$1090                     Q2_TEMP
+C:   00000253  C$Q2_TEMP.c$103$2$26               Q2_TEMP
+C:   00000255  A$Q2-TEMP$1094                     Q2_TEMP
+C:   00000255  C$Q2_TEMP.c$113$1$25               Q2_TEMP
+C:   00000257  A$Q2-TEMP$1095                     Q2_TEMP
+C:   00000259  A$Q2-TEMP$1098                     Q2_TEMP
+C:   00000259  C$Q2_TEMP.c$114$1$25               Q2_TEMP
+C:   00000259  XG$it_SPI$0$0                      Q2_TEMP
+C:   0000025A  A$Q2-TEMP$1115                     Q2_TEMP
+C:   0000025A  C$Q2_TEMP.c$116$1$25               Q2_TEMP
+C:   0000025A  C$Q2_TEMP.c$118$1$28               Q2_TEMP
+C:   0000025A  G$timer0_ISR$0$0                   Q2_TEMP
+C:   0000025A  _timer0_ISR                        Q2_TEMP
+C:   0000025D  A$Q2-TEMP$1118                     Q2_TEMP
+C:   0000025D  C$Q2_TEMP.c$119$1$28               Q2_TEMP
+C:   00000260  A$Q2-TEMP$1121                     Q2_TEMP
+C:   00000260  C$Q2_TEMP.c$120$1$28               Q2_TEMP
+C:   00000262  A$Q2-TEMP$1124                     Q2_TEMP
+C:   00000262  C$Q2_TEMP.c$121$1$28               Q2_TEMP
+C:   00000262  XG$timer0_ISR$0$0                  Q2_TEMP
+C:   00000263  A$Q2-TEMP$1143                     Q2_TEMP
+C:   00000263  C$Q2_TEMP.c$130$1$28               Q2_TEMP
+C:   00000263  C$Q2_TEMP.c$132$1$29               Q2_TEMP
+C:   00000263  G$SPI_Init$0$0                     Q2_TEMP
+C:   00000263  _SPI_Init                          Q2_TEMP
+C:   00000265  A$Q2-TEMP$1146                     Q2_TEMP
+C:   00000265  C$Q2_TEMP.c$133$1$29               Q2_TEMP
+C:   00000268  A$Q2-TEMP$1149                     Q2_TEMP
+C:   00000268  C$Q2_TEMP.c$134$1$29               Q2_TEMP
+C:   0000026B  A$Q2-TEMP$1152                     Q2_TEMP
+C:   0000026B  C$Q2_TEMP.c$135$1$29               Q2_TEMP
+C:   0000026E  A$Q2-TEMP$1155                     Q2_TEMP
+C:   0000026E  C$Q2_TEMP.c$136$1$29               Q2_TEMP
+C:   00000270  A$Q2-TEMP$1156                     Q2_TEMP
+C:   00000272  A$Q2-TEMP$1157                     Q2_TEMP
+C:   00000273  A$Q2-TEMP$1158                     Q2_TEMP
+C:   00000275  A$Q2-TEMP$1161                     Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000275  C$Q2_TEMP.c$137$1$29               Q2_TEMP
+C:   00000278  A$Q2-TEMP$1164                     Q2_TEMP
+C:   00000278  C$Q2_TEMP.c$138$1$29               Q2_TEMP
+C:   0000027B  A$Q2-TEMP$1167                     Q2_TEMP
+C:   0000027B  C$Q2_TEMP.c$139$1$29               Q2_TEMP
+C:   0000027E  A$Q2-TEMP$1170                     Q2_TEMP
+C:   0000027E  C$Q2_TEMP.c$140$1$29               Q2_TEMP
+C:   00000280  A$Q2-TEMP$1173                     Q2_TEMP
+C:   00000280  C$Q2_TEMP.c$141$1$29               Q2_TEMP
+C:   00000280  XG$SPI_Init$0$0                    Q2_TEMP
+C:   00000281  A$Q2-TEMP$1186                     Q2_TEMP
+C:   00000281  C$Q2_TEMP.c$148$1$29               Q2_TEMP
+C:   00000281  C$Q2_TEMP.c$155$1$30               Q2_TEMP
+C:   00000281  G$Timer_Init$0$0                   Q2_TEMP
+C:   00000281  _Timer_Init                        Q2_TEMP
+C:   00000284  A$Q2-TEMP$1189                     Q2_TEMP
+C:   00000284  C$Q2_TEMP.c$156$1$30               Q2_TEMP
+C:   00000287  A$Q2-TEMP$1192                     Q2_TEMP
+C:   00000287  C$Q2_TEMP.c$157$1$30               Q2_TEMP
+C:   00000289  A$Q2-TEMP$1193                     Q2_TEMP
+C:   0000028B  A$Q2-TEMP$1194                     Q2_TEMP
+C:   0000028D  A$Q2-TEMP$1195                     Q2_TEMP
+C:   0000028F  A$Q2-TEMP$1198                     Q2_TEMP
+C:   0000028F  C$Q2_TEMP.c$158$1$30               Q2_TEMP
+C:   00000291  A$Q2-TEMP$1201                     Q2_TEMP
+C:   00000291  C$Q2_TEMP.c$159$1$30               Q2_TEMP
+C:   00000293  A$Q2-TEMP$1204                     Q2_TEMP
+C:   00000293  C$Q2_TEMP.c$160$1$30               Q2_TEMP
+C:   00000293  XG$Timer_Init$0$0                  Q2_TEMP
+C:   00000294  A$Q2-TEMP$1217                     Q2_TEMP
+C:   00000294  C$Q2_TEMP.c$166$1$30               Q2_TEMP
+C:   00000294  C$Q2_TEMP.c$168$1$31               Q2_TEMP
+C:   00000294  G$LCD_Init$0$0                     Q2_TEMP
+C:   00000294  _LCD_Init                          Q2_TEMP
+C:   00000297  A$Q2-TEMP$1218                     Q2_TEMP
+C:   0000029A  A$Q2-TEMP$1221                     Q2_TEMP
+C:   0000029A  C$Q2_TEMP.c$169$1$31               Q2_TEMP
+C:   0000029D  A$Q2-TEMP$1222                     Q2_TEMP
+C:   000002A0  A$Q2-TEMP$1225                     Q2_TEMP
+C:   000002A0  C$Q2_TEMP.c$170$1$31               Q2_TEMP
+C:   000002A3  A$Q2-TEMP$1226                     Q2_TEMP
+C:   000002A6  A$Q2-TEMP$1229                     Q2_TEMP
+C:   000002A6  C$Q2_TEMP.c$171$1$31               Q2_TEMP
+C:   000002A9  A$Q2-TEMP$1230                     Q2_TEMP
+C:   000002AC  A$Q2-TEMP$1233                     Q2_TEMP
+C:   000002AC  C$Q2_TEMP.c$172$1$31               Q2_TEMP
+C:   000002AF  A$Q2-TEMP$1234                     Q2_TEMP
+C:   000002B2  A$Q2-TEMP$1237                     Q2_TEMP
+C:   000002B2  C$Q2_TEMP.c$173$1$31               Q2_TEMP
+C:   000002B2  XG$LCD_Init$0$0                    Q2_TEMP
+C:   000002B3  A$Q2-TEMP$1250                     Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002B3  C$Q2_TEMP.c$180$1$31               Q2_TEMP
+C:   000002B3  G$LCD_CmdWrite$0$0                 Q2_TEMP
+C:   000002B3  _LCD_CmdWrite                      Q2_TEMP
+C:   000002B5  A$Q2-TEMP$1253                     Q2_TEMP
+C:   000002B5  C$Q2_TEMP.c$182$1$33               Q2_TEMP
+C:   000002B7  A$Q2-TEMP$1254                     Q2_TEMP
+C:   000002BA  A$Q2-TEMP$1255                     Q2_TEMP
+C:   000002BC  A$Q2-TEMP$1258                     Q2_TEMP
+C:   000002BC  C$Q2_TEMP.c$183$1$33               Q2_TEMP
+C:   000002BE  A$Q2-TEMP$1261                     Q2_TEMP
+C:   000002BE  C$Q2_TEMP.c$184$1$33               Q2_TEMP
+C:   000002C0  A$Q2-TEMP$1264                     Q2_TEMP
+C:   000002C0  C$Q2_TEMP.c$185$1$33               Q2_TEMP
+C:   000002C2  A$Q2-TEMP$1267                     Q2_TEMP
+C:   000002C2  C$Q2_TEMP.c$186$1$33               Q2_TEMP
+C:   000002C4  A$Q2-TEMP$1270                     Q2_TEMP
+C:   000002C4  C$Q2_TEMP.c$187$1$33               Q2_TEMP
+C:   000002C7  A$Q2-TEMP$1271                     Q2_TEMP
+C:   000002CA  A$Q2-TEMP$1274                     Q2_TEMP
+C:   000002CA  C$Q2_TEMP.c$188$1$33               Q2_TEMP
+C:   000002CC  A$Q2-TEMP$1277                     Q2_TEMP
+C:   000002CC  C$Q2_TEMP.c$189$1$33               Q2_TEMP
+C:   000002CF  A$Q2-TEMP$1278                     Q2_TEMP
+C:   000002D2  A$Q2-TEMP$1281                     Q2_TEMP
+C:   000002D2  C$Q2_TEMP.c$190$1$33               Q2_TEMP
+C:   000002D2  XG$LCD_CmdWrite$0$0                Q2_TEMP
+C:   000002D3  A$Q2-TEMP$1294                     Q2_TEMP
+C:   000002D3  C$Q2_TEMP.c$197$1$33               Q2_TEMP
+C:   000002D3  G$LCD_DataWrite$0$0                Q2_TEMP
+C:   000002D3  _LCD_DataWrite                     Q2_TEMP
+C:   000002D6  A$Q2-TEMP$1297                     Q2_TEMP
+C:   000002D6  C$Q2_TEMP.c$200$1$35               Q2_TEMP
+C:   000002D8  A$Q2-TEMP$1300                     Q2_TEMP
+C:   000002D8  C$Q2_TEMP.c$201$1$35               Q2_TEMP
+C:   000002DA  A$Q2-TEMP$1303                     Q2_TEMP
+C:   000002DA  C$Q2_TEMP.c$202$1$35               Q2_TEMP
+C:   000002DC  A$Q2-TEMP$1306                     Q2_TEMP
+C:   000002DC  C$Q2_TEMP.c$203$1$35               Q2_TEMP
+C:   000002DF  A$Q2-TEMP$1307                     Q2_TEMP
+C:   000002E2  A$Q2-TEMP$1310                     Q2_TEMP
+C:   000002E2  C$Q2_TEMP.c$204$1$35               Q2_TEMP
+C:   000002E4  A$Q2-TEMP$1313                     Q2_TEMP
+C:   000002E4  C$Q2_TEMP.c$205$1$35               Q2_TEMP
+C:   000002E7  A$Q2-TEMP$1314                     Q2_TEMP
+C:   000002EA  A$Q2-TEMP$1317                     Q2_TEMP
+C:   000002EA  C$Q2_TEMP.c$206$1$35               Q2_TEMP
+C:   000002EA  XG$LCD_DataWrite$0$0               Q2_TEMP
+C:   000002EB  A$Q2-TEMP$1331                     Q2_TEMP
+C:   000002EB  C$Q2_TEMP.c$212$1$35               Q2_TEMP
+C:   000002EB  G$LCD_StringWrite$0$0              Q2_TEMP
+C:   000002EB  _LCD_StringWrite                   Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002ED  A$Q2-TEMP$1332                     Q2_TEMP
+C:   000002EF  A$Q2-TEMP$1333                     Q2_TEMP
+C:   000002F1  A$Q2-TEMP$1337                     Q2_TEMP
+C:   000002F1  C$Q2_TEMP.c$214$1$37               Q2_TEMP
+C:   000002F3  A$Q2-TEMP$1338                     Q2_TEMP
+C:   000002F5  A$Q2-TEMP$1341                     Q2_TEMP
+C:   000002F5  C$Q2_TEMP.c$216$2$38               Q2_TEMP
+C:   000002F7  A$Q2-TEMP$1342                     Q2_TEMP
+C:   000002F9  A$Q2-TEMP$1343                     Q2_TEMP
+C:   000002FB  A$Q2-TEMP$1344                     Q2_TEMP
+C:   000002FE  A$Q2-TEMP$1345                     Q2_TEMP
+C:   000002FF  A$Q2-TEMP$1346                     Q2_TEMP
+C:   00000300  A$Q2-TEMP$1347                     Q2_TEMP
+C:   00000302  A$Q2-TEMP$1348                     Q2_TEMP
+C:   00000304  A$Q2-TEMP$1349                     Q2_TEMP
+C:   00000306  A$Q2-TEMP$1350                     Q2_TEMP
+C:   00000308  A$Q2-TEMP$1351                     Q2_TEMP
+C:   0000030A  A$Q2-TEMP$1352                     Q2_TEMP
+C:   0000030C  A$Q2-TEMP$1353                     Q2_TEMP
+C:   0000030F  A$Q2-TEMP$1354                     Q2_TEMP
+C:   00000311  A$Q2-TEMP$1355                     Q2_TEMP
+C:   00000313  A$Q2-TEMP$1356                     Q2_TEMP
+C:   00000315  A$Q2-TEMP$1361                     Q2_TEMP
+C:   00000315  C$Q2_TEMP.c$217$2$38               Q2_TEMP
+C:   00000315  C$Q2_TEMP.c$218$2$38               Q2_TEMP
+C:   00000317  A$Q2-TEMP$1362                     Q2_TEMP
+C:   00000319  A$Q2-TEMP$1366                     Q2_TEMP
+C:   00000319  C$Q2_TEMP.c$220$1$37               Q2_TEMP
+C:   00000319  XG$LCD_StringWrite$0$0             Q2_TEMP
+C:   0000031A  A$Q2-TEMP$1379                     Q2_TEMP
+C:   0000031A  C$Q2_TEMP.c$227$1$37               Q2_TEMP
+C:   0000031A  C$Q2_TEMP.c$229$1$39               Q2_TEMP
+C:   0000031A  G$LCD_Ready$0$0                    Q2_TEMP
+C:   0000031A  _LCD_Ready                         Q2_TEMP
+C:   0000031D  A$Q2-TEMP$1382                     Q2_TEMP
+C:   0000031D  C$Q2_TEMP.c$230$1$39               Q2_TEMP
+C:   0000031F  A$Q2-TEMP$1385                     Q2_TEMP
+C:   0000031F  C$Q2_TEMP.c$231$1$39               Q2_TEMP
+C:   00000321  A$Q2-TEMP$1388                     Q2_TEMP
+C:   00000321  C$Q2_TEMP.c$232$1$39               Q2_TEMP
+C:   00000323  A$Q2-TEMP$1391                     Q2_TEMP
+C:   00000323  C$Q2_TEMP.c$233$1$39               Q2_TEMP
+C:   00000326  A$Q2-TEMP$1392                     Q2_TEMP
+C:   00000329  A$Q2-TEMP$1395                     Q2_TEMP
+C:   00000329  C$Q2_TEMP.c$234$1$39               Q2_TEMP
+C:   0000032B  A$Q2-TEMP$1399                     Q2_TEMP
+C:   0000032B  C$Q2_TEMP.c$235$1$39               Q2_TEMP
+C:   0000032E  A$Q2-TEMP$1402                     Q2_TEMP
+C:   0000032E  C$Q2_TEMP.c$237$2$40               Q2_TEMP
+C:   00000330  A$Q2-TEMP$1405                     Q2_TEMP
+C:   00000330  C$Q2_TEMP.c$238$2$40               Q2_TEMP
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000332  A$Q2-TEMP$1406                     Q2_TEMP
+C:   00000334  A$Q2-TEMP$1410                     Q2_TEMP
+C:   00000334  C$Q2_TEMP.c$240$1$39               Q2_TEMP
+C:   00000336  A$Q2-TEMP$1413                     Q2_TEMP
+C:   00000336  C$Q2_TEMP.c$241$1$39               Q2_TEMP
+C:   00000336  XG$LCD_Ready$0$0                   Q2_TEMP
+C:   00000337  A$Q2-TEMP$1427                     Q2_TEMP
+C:   00000337  C$Q2_TEMP.c$248$1$39               Q2_TEMP
+C:   00000337  G$sdelay$0$0                       Q2_TEMP
+C:   00000337  _sdelay                            Q2_TEMP
+C:   00000339  A$Q2-TEMP$1428                     Q2_TEMP
+C:   0000033B  A$Q2-TEMP$1432                     Q2_TEMP
+C:   0000033B  C$Q2_TEMP.c$251$1$42               Q2_TEMP
+C:   0000033C  A$Q2-TEMP$1433                     Q2_TEMP
+C:   0000033D  A$Q2-TEMP$1434                     Q2_TEMP
+C:   0000033E  A$Q2-TEMP$1435                     Q2_TEMP
+C:   00000340  A$Q2-TEMP$1436                     Q2_TEMP
+C:   00000342  A$Q2-TEMP$1437                     Q2_TEMP
+C:   00000345  A$Q2-TEMP$1438                     Q2_TEMP
+C:   00000347  A$Q2-TEMP$1439                     Q2_TEMP
+C:   00000349  A$Q2-TEMP$1442                     Q2_TEMP
+C:   00000349  C$Q2_TEMP.c$253$2$43               Q2_TEMP
+C:   0000034B  A$Q2-TEMP$1444                     Q2_TEMP
+C:   0000034C  A$Q2-TEMP$1445                     Q2_TEMP
+C:   0000034D  A$Q2-TEMP$1446                     Q2_TEMP
+C:   0000034E  A$Q2-TEMP$1447                     Q2_TEMP
+C:   0000034F  A$Q2-TEMP$1448                     Q2_TEMP
+C:   00000351  A$Q2-TEMP$1451                     Q2_TEMP
+C:   00000351  C$Q2_TEMP.c$254$2$43               Q2_TEMP
+C:   00000352  A$Q2-TEMP$1452                     Q2_TEMP
+C:   00000355  A$Q2-TEMP$1453                     Q2_TEMP
+C:   00000356  A$Q2-TEMP$1455                     Q2_TEMP
+C:   00000358  A$Q2-TEMP$1459                     Q2_TEMP
+C:   00000358  C$Q2_TEMP.c$256$1$42               Q2_TEMP
+C:   00000358  XG$sdelay$0$0                      Q2_TEMP
+C:   00000359  ___fsmul                           _fsmul
+C:   000003FC  fsgetargs                          _fsget2args
+C:   0000042A  fs_normalize_a                     _fsnormalize
+C:   0000045D  __moduint                          _moduint
+C:   000004AA  __divuint                          _divuint
+C:   000004D3  ___sint2fs                         _sint2fs
+C:   000004E0  ___fs2sint                         _fs2sint
+C:   00000514  fs_round_and_return                _fsreturnval
+C:   0000052C  fs_zerocheck_return                _fsreturnval
+C:   00000535  fs_return_zero                     _fsreturnval
+C:   0000053D  fs_direct_return                   _fsreturnval
+C:   0000054B  fs_return_inf                      _fsreturnval
+C:   00000558  fs_return_nan                      _fsreturnval
+C:   00000563  ___fsdiv                           _fsdiv
+C:   00000626  __gptrget                          _gptrget
+C:   00000642  __modsint                          _modsint
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000678  ___slong2fs                        _slong2fs
+C:   00000681  slong2fs_doit                      _slong2fs
+C:   000006A5  __divsint                          _divsint
+C:   000006DD  ___fs2slong                        _fs2slong
+C:   00000738  __sdcc_external_startup            _startup
+C:   0000073C  fsgetarg                           _fsget1arg
+C:   0000074E  fs_rshift_a                        _fsrshift
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000791    00000010 =          16. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000791  FQ2_TEMP$__str_0$0$0               Q2_TEMP
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+
+Files Linked                              [ module(s) ]
+
+Q2-TEMP.rel                               [  ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsmul.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsget2args.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtclear.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsnormalize.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxinit.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _moduint.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxclear.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _divuint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _sint2fs.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fs2sint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsreturnval.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsdiv.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtstart.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _gptrget.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _modsint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _slong2fs.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _divsint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fs2slong.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _startup.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsget1arg.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsrshift.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
